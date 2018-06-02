@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>videoPlay.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>CC0CEA1C78227343BDCE8229C1CA714526CD1C37</string>
+				<key>dateExpires</key>
+				<string>12/19/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>A79T4B24DZ.com.cogzidel.videoPlay</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>A79T4B24DZ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>A79T4B24DZ.com.cogzidel.videoPlay</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>videoPlay.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>dc380c21-7cc2-4adf-b1e1-8074acc50078</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: *</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>A79T4B24DZ</string>
+				<key>name</key>
+				<string>Cogzidel Technologies Pvt Ltd</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

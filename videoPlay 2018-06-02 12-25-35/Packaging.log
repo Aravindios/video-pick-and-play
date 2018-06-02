@@ -1,0 +1,1526 @@
+2018-06-02 06:55:04 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f8418390000; archive(resolved)='<IDEArchive: 0x7f83ff7b1060>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team(resolved)='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f8418390000; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f8418353f50; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f84176e5e50; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f84196f0070; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f8417db8a80; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f8418195a30; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f8417e00bb0; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f8417dbaa50; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f84181ab9b0; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='<IDEProvisioningBasicTeam 0x7f8416f54130: teamID: A79T4B24DZ, teamName: Cogzidel Technologies Pvt Ltd>'>
+	<IDEDistributionContext: 0x7f8418105190; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f84008626d0>', team='(null)'>
+	<IDEDistributionContext: 0x7f8416bfb690; archive = '<IDEArchive: 0x7f83ff7b1060>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f8418390000>
+2018-06-02 06:55:04 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-06-02 06:55:04 +0000  Processing step: IDEDistributionCopyItemStep
+2018-06-02 06:55:04 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app'
+2018-06-02 06:55:04 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app 
+2018-06-02 06:55:04 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-06-02 06:55:04 +0000  11069 bytes for ./_CodeSignature/CodeResources
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-06-02 06:55:04 +0000  382 bytes for ./archived-expanded-entitlements.xcent
+2018-06-02 06:55:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-02 06:55:04 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-02 06:55:04 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-06-02 06:55:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-02 06:55:04 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-06-02 06:55:04 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-06-02 06:55:04 +0000  2558 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/cI0-as-ZNF-view-ZHa-bI-6DD.nib ... 
+2018-06-02 06:55:04 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/cI0-as-ZNF-view-ZHa-bI-6DD.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-06-02 06:55:04 +0000  333 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-06-02 06:55:04 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-06-02 06:55:04 +0000  1288 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-cI0-as-ZNF.nib ... 
+2018-06-02 06:55:04 +0000  832 bytes for ./Base.lproj/Main.storyboardc/UIViewController-cI0-as-ZNF.nib
+2018-06-02 06:55:04 +0000  copying file ./embedded.mobileprovision ... 
+2018-06-02 06:55:04 +0000  26907 bytes for ./embedded.mobileprovision
+copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2018-06-02 06:55:04 +0000  1212064 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-06-02 06:55:05 +0000  68838944 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+2018-06-02 06:55:05 +0000  650064 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257696 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+1268848 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+258272 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+434544 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+599280 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2440736 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-06-02 06:55:06 +0000  27762864 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-06-02 06:55:06 +0000  399376 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+505792 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+446400 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+310976 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftsimd.dylib ... 
+3697392 bytes for ./Frameworks/libswiftsimd.dylib
+2018-06-02 06:55:06 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-06-02 06:55:06 +0000  789184 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-06-02 06:55:06 +0000  copying file ./Info.plist ... 
+1200 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-06-02 06:55:06 +0000  8 bytes for ./PkgInfo
+copying file ./videoPlay ... 
+2018-06-02 06:55:06 +0000  218080 bytes for ./videoPlay
+2018-06-02 06:55:06 +0000  2018-06-02 06:55:06 +0000  /usr/bin/ditto exited with 0
+
+2018-06-02 06:55:06 +0000  
+2018-06-02 06:55:06 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8417dcbe10 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f8400e45b60:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f84176cb790 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f8416ff3200:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8416fbe360 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f84181d3820:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f84197f43c0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8416fe7fa0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8418159990 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f8416f07540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8417d9ff50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f84180d4990:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8416f308e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f84181ccde0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f84199244d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8417b4c1f0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f841979b570 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f8416f75ec0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8417e58420 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f8416ffb860:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f841818bfd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f84181066c0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8417d46320 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f8417e5d4d0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8417d9a620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f841a9aa020:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f841831efe0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f8417e396a0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8416fd6720 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f83ff691540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftos.dylib'>'>
+2018-06-02 06:55:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8416fccc10 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8417e98290:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftsimd.dylib'>'>
+2018-06-02 06:55:06 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-06-02 06:55:06 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-06-02 06:55:06 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-06-02 06:55:06 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-06-02 06:55:06 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-06-02 06:55:06 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-06-02 06:55:07 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-06-02 06:55:08 +0000  Processing step: IDEDistributionSymbolsStep
+2018-06-02 06:55:08 +0000  Processing symbols for libswiftAVFoundation.dylib
+2018-06-02 06:55:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftAVFoundation.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:08 +0000  building file list ... 
+2018-06-02 06:55:08 +0000   0 files...2018-06-02 06:55:08 +0000  1 file to consider
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 449.33K  speedup is 3899.25
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  2018-06-02 06:55:08 +0000  
+
+2018-06-02 06:55:08 +0000  /usr/bin/rsync exited with 0
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:08 +0000  building file list ... 
+2018-06-02 06:55:08 +0000   0 files...2018-06-02 06:55:08 +0000  7 files to consider
+2018-06-02 06:55:08 +0000  ./
+2018-06-02 06:55:08 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+2018-06-02 06:55:08 +0000  videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:08 +0000  
+sent 233 bytes  received 50 bytes  566.00 bytes/sec
+2018-06-02 06:55:08 +0000  total size is 128.01K  speedup is 463.20
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  2018-06-02 06:55:08 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:08 +0000  
+2018-06-02 06:55:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftAVFoundation.dylib'
+2018-06-02 06:55:10 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftAVFoundation.dylib [armv7, 0.032299 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftAVFoundation.dylib [armv7s, 0.032299 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftAVFoundation.dylib [arm64, 0.032299 seconds]:
+2018-06-02 06:55:10 +0000  2018-06-02 06:55:10 +0000  
+
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  2018-06-02 06:55:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  Processing symbols for libswiftCore.dylib
+2018-06-02 06:55:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:10 +0000  building file list ... 
+2018-06-02 06:55:10 +0000   0 files...2018-06-02 06:55:10 +0000  1 file to consider
+2018-06-02 06:55:10 +0000  
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 19.82M  speedup is 188975.56
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  2018-06-02 06:55:10 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:10 +0000  building file list ... 
+2018-06-02 06:55:10 +0000   0 files...2018-06-02 06:55:10 +0000  7 files to consider
+2018-06-02 06:55:10 +0000  ./
+2018-06-02 06:55:10 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:10 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  2018-06-02 06:55:10 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:10 +0000  
+2018-06-02 06:55:10 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCore.dylib'
+2018-06-02 06:55:11 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCore.dylib [armv7, 0.476688 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCore.dylib [armv7s, 0.476688 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCore.dylib [arm64, 0.476688 seconds]:
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Processing symbols for libswiftCoreAudio.dylib
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreAudio.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  1 file to consider
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:11 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 302.99K  speedup is 2697.91
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  7 files to consider
+2018-06-02 06:55:11 +0000  ./
+2018-06-02 06:55:11 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:11 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreAudio.dylib'
+2018-06-02 06:55:11 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreAudio.dylib [armv7, 0.004905 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreAudio.dylib [armv7s, 0.004905 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreAudio.dylib [arm64, 0.004905 seconds]:
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  1 file to consider
+2018-06-02 06:55:11 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 193.38K  speedup is 1650.20
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  7 files to consider
+2018-06-02 06:55:11 +0000  ./
+2018-06-02 06:55:11 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:11 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreFoundation.dylib'
+2018-06-02 06:55:11 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreFoundation.dylib [armv7, 0.001578 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreFoundation.dylib [armv7s, 0.001578 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreFoundation.dylib [arm64, 0.001578 seconds]:
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  1 file to consider
+2018-06-02 06:55:11 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 520.87K  speedup is 4520.10
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  7 files to consider
+2018-06-02 06:55:11 +0000  ./
+2018-06-02 06:55:11 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:11 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+2018-06-02 06:55:11 +0000  total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 0
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreGraphics.dylib'
+2018-06-02 06:55:11 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreGraphics.dylib [armv7, 0.008981 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreGraphics.dylib [armv7s, 0.008981 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreGraphics.dylib [arm64, 0.008981 seconds]:
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  1 file to consider
+2018-06-02 06:55:11 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 193.95K  speedup is 1726.96
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  2018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:11 +0000  
+
+2018-06-02 06:55:11 +0000  
+2018-06-02 06:55:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:11 +0000  building file list ... 
+2018-06-02 06:55:11 +0000   0 files...2018-06-02 06:55:11 +0000  7 files to consider
+2018-06-02 06:55:11 +0000  ./
+2018-06-02 06:55:11 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:12 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreImage.dylib'
+2018-06-02 06:55:12 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreImage.dylib [armv7, 0.001453 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreImage.dylib [armv7s, 0.001453 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreImage.dylib [arm64, 0.001453 seconds]:
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  Processing symbols for libswiftCoreMedia.dylib
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreMedia.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  1 file to consider
+2018-06-02 06:55:12 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 205.55K  speedup is 1830.26
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  7 files to consider
+2018-06-02 06:55:12 +0000  ./
+2018-06-02 06:55:12 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:12 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreMedia.dylib'
+2018-06-02 06:55:12 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreMedia.dylib [armv7, 0.002953 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreMedia.dylib [armv7s, 0.002953 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftCoreMedia.dylib [arm64, 0.002953 seconds]:
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Processing symbols for libswiftDarwin.dylib
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  1 file to consider
+2018-06-02 06:55:12 +0000  
+sent 92 bytes  received 20 bytes  224.00 bytes/sec
+total size is 253.61K  speedup is 2318.71
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  7 files to consider
+2018-06-02 06:55:12 +0000  ./
+2018-06-02 06:55:12 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:12 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDarwin.dylib'
+2018-06-02 06:55:12 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDarwin.dylib [armv7, 0.004639 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDarwin.dylib [armv7s, 0.004639 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDarwin.dylib [arm64, 0.004639 seconds]:
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Processing symbols for libswiftDispatch.dylib
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  1 file to consider
+2018-06-02 06:55:12 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 940.19K  speedup is 8445.19
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  7 files to consider
+2018-06-02 06:55:12 +0000  ./
+2018-06-02 06:55:12 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:12 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDispatch.dylib'
+2018-06-02 06:55:12 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDispatch.dylib [armv7, 0.021502 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDispatch.dylib [armv7s, 0.021502 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftDispatch.dylib [arm64, 0.021502 seconds]:
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  Processing symbols for libswiftFoundation.dylib
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000   0 files...1 file to consider
+
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 7.89M  speedup is 71307.83
+2018-06-02 06:55:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:12 +0000  building file list ... 
+2018-06-02 06:55:12 +0000   0 files...2018-06-02 06:55:12 +0000  7 files to consider
+2018-06-02 06:55:12 +0000  ./
+2018-06-02 06:55:12 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:12 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:12 +0000  2018-06-02 06:55:12 +0000  
+
+2018-06-02 06:55:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftFoundation.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftFoundation.dylib [armv7, 0.150274 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftFoundation.dylib [armv7s, 0.150274 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftFoundation.dylib [arm64, 0.150274 seconds]:
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftMetal.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:13 +0000   0 files...1 file to consider
+
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 203.27K  speedup is 1875.17
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftMetal.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftMetal.dylib [armv7, 0.002479 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftMetal.dylib [armv7s, 0.002479 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftMetal.dylib [arm64, 0.002479 seconds]:
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  1 file to consider
+2018-06-02 06:55:13 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 242.66K  speedup is 2142.07
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftObjectiveC.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftObjectiveC.dylib [armv7, 0.003323 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftObjectiveC.dylib [armv7s, 0.003323 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftObjectiveC.dylib [arm64, 0.003323 seconds]:
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  1 file to consider
+2018-06-02 06:55:13 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 197.17K  speedup is 1740.52
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftQuartzCore.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftQuartzCore.dylib [armv7, 0.001910 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftQuartzCore.dylib [armv7s, 0.001910 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftQuartzCore.dylib [arm64, 0.001910 seconds]:
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftUIKit.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  1 file to consider
+2018-06-02 06:55:13 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 342.36K  speedup is 3158.31
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftUIKit.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftUIKit.dylib [armv7, 0.006011 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftUIKit.dylib [armv7s, 0.006011 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftUIKit.dylib [arm64, 0.006011 seconds]:
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftos.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  1 file to consider
+2018-06-02 06:55:13 +0000  
+sent 88 bytes  received 20 bytes  216.00 bytes/sec
+total size is 200.98K  speedup is 1905.59
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftos.dylib'
+2018-06-02 06:55:13 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftos.dylib [armv7, 0.002464 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftos.dylib [armv7s, 0.002464 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftos.dylib [arm64, 0.002464 seconds]:
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Processing symbols for libswiftsimd.dylib
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftsimd.dylib' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  1 file to consider
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 1.25M  speedup is 11942.33
+2018-06-02 06:55:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:13 +0000  building file list ... 
+2018-06-02 06:55:13 +0000   0 files...2018-06-02 06:55:13 +0000  7 files to consider
+2018-06-02 06:55:13 +0000  ./
+2018-06-02 06:55:13 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:13 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  2018-06-02 06:55:13 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:13 +0000  
+2018-06-02 06:55:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftsimd.dylib'
+2018-06-02 06:55:14 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftsimd.dylib [armv7, 0.029810 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftsimd.dylib [armv7s, 0.029810 seconds]:
+/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/libswiftsimd.dylib [arm64, 0.029810 seconds]:
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  2018-06-02 06:55:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  Processing symbols for videoPlay.app
+2018-06-02 06:55:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:14 +0000  building file list ... 
+2018-06-02 06:55:14 +0000   0 files...2018-06-02 06:55:14 +0000  36 files to consider
+2018-06-02 06:55:14 +0000  videoPlay.app/
+2018-06-02 06:55:14 +0000  videoPlay.app/Base.lproj/
+videoPlay.app/Base.lproj/LaunchScreen.storyboardc/
+2018-06-02 06:55:14 +0000  videoPlay.app/Base.lproj/Main.storyboardc/
+videoPlay.app/Frameworks/
+videoPlay.app/_CodeSignature/
+2018-06-02 06:55:14 +0000  
+sent 1.12K bytes  received 56 bytes  2.35K bytes/sec
+total size is 33.21M  speedup is 28926.58
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  2018-06-02 06:55:14 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/dSYMs/' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v'
+2018-06-02 06:55:14 +0000  building file list ... 
+2018-06-02 06:55:14 +0000   0 files...2018-06-02 06:55:14 +0000  7 files to consider
+2018-06-02 06:55:14 +0000  ./
+2018-06-02 06:55:14 +0000  videoPlay.app.dSYM/
+videoPlay.app.dSYM/Contents/
+videoPlay.app.dSYM/Contents/Resources/
+videoPlay.app.dSYM/Contents/Resources/DWARF/
+2018-06-02 06:55:14 +0000  
+sent 245 bytes  received 62 bytes  614.00 bytes/sec
+total size is 128.01K  speedup is 426.99
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  /usr/bin/rsync exited with 02018-06-02 06:55:14 +0000  
+
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/videoPlay.app.dSYM/Contents/Resources/Dwarf/videoPlay'
+2018-06-02 06:55:14 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/videoPlay.app.dSYM/Contents/Resources/Dwarf/videoPlay [arm64, 0.049817 seconds]:
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  
+2018-06-02 06:55:14 +0000  2018-06-02 06:55:14 +0000  
+
+2018-06-02 06:55:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-02 06:55:14 +0000  2018-06-02 06:55:14 +0000  
+
+2018-06-02 06:55:14 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-06-02 06:55:14 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/SwiftSupport' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/SwiftSupport'
+2018-06-02 06:55:14 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/SwiftSupport 
+2018-06-02 06:55:14 +0000  copying file ./iphoneos/libswiftAVFoundation.dylib ... 
+2018-06-02 06:55:14 +0000  1704196 bytes for ./iphoneos/libswiftAVFoundation.dylib
+2018-06-02 06:55:14 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-06-02 06:55:15 +0000  100085655 bytes for ./iphoneos/libswiftCore.dylib
+2018-06-02 06:55:15 +0000  copying file ./iphoneos/libswiftCoreAudio.dylib ... 
+2018-06-02 06:55:15 +0000  857103 bytes for ./iphoneos/libswiftCoreAudio.dylib
+copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-06-02 06:55:15 +0000  287519 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-06-02 06:55:15 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-06-02 06:55:15 +0000  1736845 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-06-02 06:55:15 +0000  300318 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftCoreMedia.dylib ... 
+2018-06-02 06:55:15 +0000  551848 bytes for ./iphoneos/libswiftCoreMedia.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-06-02 06:55:15 +0000  790336 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-06-02 06:55:15 +0000  3399641 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-06-02 06:55:15 +0000  40621914 bytes for ./iphoneos/libswiftFoundation.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-06-02 06:55:16 +0000  504212 bytes for ./iphoneos/libswiftMetal.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-06-02 06:55:16 +0000  681314 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+590007 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-06-02 06:55:16 +0000  370129 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftsimd.dylib ... 
+2018-06-02 06:55:17 +0000  4915564 bytes for ./iphoneos/libswiftsimd.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-06-02 06:55:17 +0000  1118295 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-06-02 06:55:17 +0000  2018-06-02 06:55:17 +0000  
+2018-06-02 06:55:17 +0000  /usr/bin/ditto exited with 0
+
+2018-06-02 06:55:17 +0000  
+2018-06-02 06:55:17 +0000  
+2018-06-02 06:55:17 +0000  Processing step: IDEDistributionAppThinningStep
+2018-06-02 06:55:17 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-06-02 06:55:17 +0000  Processing step: IDEDistributionODRStep
+2018-06-02 06:55:17 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8417dcbe10 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f8400e45b60:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f84176cb790 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f8416ff3200:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8416fbe360 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f84181d3820:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f84197f43c0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8416fe7fa0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8418159990 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f8416f07540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8417d9ff50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f84180d4990:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8416f308e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f84181ccde0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f84199244d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8417b4c1f0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f841979b570 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f8416f75ec0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8417e58420 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f8416ffb860:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f841818bfd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f84181066c0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8417d46320 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f8417e5d4d0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8417d9a620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f841a9aa020:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f841831efe0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f8417e396a0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8416fd6720 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f83ff691540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftos.dylib'>'>
+2018-06-02 06:55:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8416fccc10 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8417e98290:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftsimd.dylib'>'>
+2018-06-02 06:55:17 +0000  Running /usr/bin/xattr '-crs' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app'
+2018-06-02 06:55:20 +0000  
+2018-06-02 06:55:20 +0000  2018-06-02 06:55:20 +0000  /usr/bin/xattr exited with 0
+
+2018-06-02 06:55:20 +0000  
+2018-06-02 06:55:20 +0000  Processing step: IDEDistributionCodesignStep
+2018-06-02 06:55:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8417dcbe10 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f8400e45b60:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8416fe6920>: {
+}
+2018-06-02 06:55:20 +0000  Entitlements for <IDEDistributionItem: 0x7f8417dcbe10 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f8400e45b60:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2018-06-02 06:55:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8417dcbe10 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f8400e45b60:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsTEyM7C
+2018-06-02 06:55:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsTEyM7C' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftAVFoundation.dylib'
+2018-06-02 06:55:21 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2018-06-02 06:55:21 +0000  2018-06-02 06:55:21 +0000  
+
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  2018-06-02 06:55:21 +0000  
+
+2018-06-02 06:55:21 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:21 +0000  
+
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f84176cb790 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f8416ff3200:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8417b05d40>: {
+}
+2018-06-02 06:55:21 +0000  Entitlements for <IDEDistributionItem: 0x7f84176cb790 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f8416ff3200:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-06-02 06:55:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7f84176cb790 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f8416ff3200:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementspqRCll
+2018-06-02 06:55:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementspqRCll' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCore.dylib'
+2018-06-02 06:55:21 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-06-02 06:55:21 +0000  2018-06-02 06:55:21 +0000  
+
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:21 +0000  
+
+2018-06-02 06:55:21 +0000  
+2018-06-02 06:55:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8416fbe360 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f84181d3820:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8416fca6a0>: {
+}
+2018-06-02 06:55:21 +0000  Entitlements for <IDEDistributionItem: 0x7f8416fbe360 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f84181d3820:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2018-06-02 06:55:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8416fbe360 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f84181d3820:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsdFdYhU
+2018-06-02 06:55:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsdFdYhU' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreAudio.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f84197f43c0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8416fe7fa0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f841808b3f0>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f84197f43c0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8416fe7fa0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f84197f43c0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8416fe7fa0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsVXOqXY
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsVXOqXY' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8418159990 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f8416f07540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f841818c0e0>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f8418159990 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f8416f07540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8418159990 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f8416f07540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsl2r7U1
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsl2r7U1' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8417d9ff50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f84180d4990:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f841991bf50>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f8417d9ff50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f84180d4990:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8417d9ff50 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f84180d4990:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsr0Pae3
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsr0Pae3' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreImage.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8416f308e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f84181ccde0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f84180e6d50>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f8416f308e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f84181ccde0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8416f308e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f84181ccde0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsgItCrj
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsgItCrj' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreMedia.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f84199244d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8417b4c1f0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8417b072e0>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f84199244d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8417b4c1f0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f84199244d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8417b4c1f0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsLkgJMj
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsLkgJMj' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDarwin.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f841979b570 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f8416f75ec0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f841808cf10>: {
+}
+2018-06-02 06:55:22 +0000  Entitlements for <IDEDistributionItem: 0x7f841979b570 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f8416f75ec0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-06-02 06:55:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7f841979b570 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f8416f75ec0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsFJpWNi
+2018-06-02 06:55:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsFJpWNi' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDispatch.dylib'
+2018-06-02 06:55:22 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  
+
+2018-06-02 06:55:22 +0000  2018-06-02 06:55:22 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:22 +0000  
+2018-06-02 06:55:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8417e58420 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f8416ffb860:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f84180ef570>: {
+}
+2018-06-02 06:55:23 +0000  Entitlements for <IDEDistributionItem: 0x7f8417e58420 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f8416ffb860:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-06-02 06:55:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8417e58420 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f8416ffb860:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsxwIWHO
+2018-06-02 06:55:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsxwIWHO' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftFoundation.dylib'
+2018-06-02 06:55:23 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f841818bfd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f84181066c0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8418037880>: {
+}
+2018-06-02 06:55:23 +0000  Entitlements for <IDEDistributionItem: 0x7f841818bfd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f84181066c0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-06-02 06:55:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7f841818bfd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f84181066c0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsJZ22et
+2018-06-02 06:55:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsJZ22et' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftMetal.dylib'
+2018-06-02 06:55:23 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  /usr/bin/codesign exited with 0
+2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8417d46320 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f8417e5d4d0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8417b69400>: {
+}
+2018-06-02 06:55:23 +0000  Entitlements for <IDEDistributionItem: 0x7f8417d46320 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f8417e5d4d0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-06-02 06:55:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8417d46320 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f8417e5d4d0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsBjyLpw
+2018-06-02 06:55:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsBjyLpw' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftObjectiveC.dylib'
+2018-06-02 06:55:23 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8417d9a620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f841a9aa020:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8418069c10>: {
+}
+2018-06-02 06:55:23 +0000  Entitlements for <IDEDistributionItem: 0x7f8417d9a620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f841a9aa020:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-06-02 06:55:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8417d9a620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f841a9aa020:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementslLoelC
+2018-06-02 06:55:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementslLoelC' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftQuartzCore.dylib'
+2018-06-02 06:55:23 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:23 +0000  2018-06-02 06:55:23 +0000  
+
+2018-06-02 06:55:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f841831efe0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f8417e396a0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8416fb7b40>: {
+}
+2018-06-02 06:55:23 +0000  Entitlements for <IDEDistributionItem: 0x7f841831efe0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f8417e396a0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-06-02 06:55:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7f841831efe0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f8417e396a0:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsT5rgB1
+2018-06-02 06:55:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsT5rgB1' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftUIKit.dylib'
+2018-06-02 06:55:24 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  /usr/bin/codesign exited with 0
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8416fd6720 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f83ff691540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f84180e4850>: {
+}
+2018-06-02 06:55:24 +0000  Entitlements for <IDEDistributionItem: 0x7f8416fd6720 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f83ff691540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-06-02 06:55:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8416fd6720 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f83ff691540:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsbPHeaN
+2018-06-02 06:55:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsbPHeaN' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftos.dylib'
+2018-06-02 06:55:24 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  /usr/bin/codesign exited with 0
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f8416fccc10 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8417e98290:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftsimd.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8416fb5330>: {
+}
+2018-06-02 06:55:24 +0000  Entitlements for <IDEDistributionItem: 0x7f8416fccc10 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8417e98290:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2018-06-02 06:55:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8416fccc10 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8417e98290:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsGlxB2g
+2018-06-02 06:55:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsGlxB2g' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftsimd.dylib'
+2018-06-02 06:55:24 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  /usr/bin/codesign exited with 02018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f84180a5320 'com.cogzidel.videoPlay' '<DVTFilePath:0x7f8416dd1e90:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f8418024770>: {
+}
+2018-06-02 06:55:24 +0000  Entitlements for <IDEDistributionItem: 0x7f84180a5320 'com.cogzidel.videoPlay' '<DVTFilePath:0x7f8416dd1e90:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app'>'>: {
+    "application-identifier" = "A79T4B24DZ.com.cogzidel.videoPlay";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = A79T4B24DZ;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "A79T4B24DZ.com.cogzidel.videoPlay"
+    );
+}
+2018-06-02 06:55:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7f84180a5320 'com.cogzidel.videoPlay' '<DVTFilePath:0x7f8416dd1e90:'/Users/apple/Library/Developer/Xcode/Archives/2018-06-02/videoPlay 6-2-18, 12.24 PM.xcarchive/Products/Applications/videoPlay.app'>'> to: /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsiSRRI3
+2018-06-02 06:55:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CC0CEA1C78227343BDCE8229C1CA714526CD1C37' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/entitlementsiSRRI3' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app'
+2018-06-02 06:55:24 +0000  /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root/Payload/videoPlay.app: signed app bundle with Mach-O thin (arm64) [com.cogzidel.videoPlay]
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  /usr/bin/codesign exited with 0
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-02 06:55:24 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-06-02 06:55:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Symbols' '--link-dest' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root'
+2018-06-02 06:55:24 +0000  building file list ... 
+2018-06-02 06:55:24 +0000   0 files...2018-06-02 06:55:24 +0000  50 files to consider
+2018-06-02 06:55:24 +0000  Symbols/
+2018-06-02 06:55:24 +0000  
+sent 2.69K bytes  received 26 bytes  5.43K bytes/sec
+total size is 19.96M  speedup is 7526.31
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  /usr/bin/rsync exited with 0
+
+2018-06-02 06:55:24 +0000  2018-06-02 06:55:24 +0000  
+
+2018-06-02 06:55:24 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root' '/var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Packages/videoPlay.ipa'
+2018-06-02 06:55:24 +0000  >>> Copying /var/folders/dl/b45rd2vn2xn916qrs6gtnkvr0000gp/T/XcodeDistPipeline.G7v/Root 
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/_CodeSignature/CodeResources ... 
+2018-06-02 06:55:24 +0000  11069 bytes for ./Payload/videoPlay.app/_CodeSignature/CodeResources
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/archived-expanded-entitlements.xcent ... 
+382 bytes for ./Payload/videoPlay.app/archived-expanded-entitlements.xcent
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-02 06:55:24 +0000  1136 bytes for ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-02 06:55:24 +0000  258 bytes for ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-02 06:55:24 +0000  832 bytes for ./Payload/videoPlay.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-06-02 06:55:24 +0000  2558 bytes for ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/cI0-as-ZNF-view-ZHa-bI-6DD.nib ... 
+1149 bytes for ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/cI0-as-ZNF-view-ZHa-bI-6DD.nib
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/Info.plist ... 
+333 bytes for ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-06-02 06:55:24 +0000  1288 bytes for ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/UIViewController-cI0-as-ZNF.nib ... 
+2018-06-02 06:55:24 +0000  832 bytes for ./Payload/videoPlay.app/Base.lproj/Main.storyboardc/UIViewController-cI0-as-ZNF.nib
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/embedded.mobileprovision ... 
+2018-06-02 06:55:24 +0000  11586 bytes for ./Payload/videoPlay.app/embedded.mobileprovision
+2018-06-02 06:55:24 +0000  copying file ./Payload/videoPlay.app/Frameworks/libswiftAVFoundation.dylib ... 
+2018-06-02 06:55:24 +0000  504816 bytes for ./Payload/videoPlay.app/Frameworks/libswiftAVFoundation.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftCore.dylib ... 
+2018-06-02 06:55:25 +0000  21080016 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftCoreAudio.dylib ... 
+2018-06-02 06:55:25 +0000  354288 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCoreAudio.dylib
+2018-06-02 06:55:25 +0000  copying file ./Payload/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-06-02 06:55:25 +0000  208720 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-06-02 06:55:25 +0000  578176 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-06-02 06:55:25 +0000  209280 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftCoreMedia.dylib ... 
+2018-06-02 06:55:25 +0000  254080 bytes for ./Payload/videoPlay.app/Frameworks/libswiftCoreMedia.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftDarwin.dylib ... 
+2018-06-02 06:55:25 +0000  303488 bytes for ./Payload/videoPlay.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftDispatch.dylib ... 
+2018-06-02 06:55:25 +0000  1009680 bytes for ./Payload/videoPlay.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftFoundation.dylib ... 
+2018-06-02 06:55:26 +0000  8413712 bytes for ./Payload/videoPlay.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftMetal.dylib ... 
+2018-06-02 06:55:26 +0000  251680 bytes for ./Payload/videoPlay.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-06-02 06:55:26 +0000  259360 bytes for ./Payload/videoPlay.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftos.dylib ... 
+2018-06-02 06:55:26 +0000  249328 bytes for ./Payload/videoPlay.app/Frameworks/libswiftos.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-06-02 06:55:26 +0000  212624 bytes for ./Payload/videoPlay.app/Frameworks/libswiftQuartzCore.dylib
+2018-06-02 06:55:26 +0000  copying file ./Payload/videoPlay.app/Frameworks/libswiftsimd.dylib ... 
+2018-06-02 06:55:26 +0000  1361664 bytes for ./Payload/videoPlay.app/Frameworks/libswiftsimd.dylib
+copying file ./Payload/videoPlay.app/Frameworks/libswiftUIKit.dylib ... 
+2018-06-02 06:55:26 +0000  361904 bytes for ./Payload/videoPlay.app/Frameworks/libswiftUIKit.dylib
+2018-06-02 06:55:26 +0000  copying file ./Payload/videoPlay.app/Info.plist ... 
+1200 bytes for ./Payload/videoPlay.app/Info.plist
+copying file ./Payload/videoPlay.app/PkgInfo ... 
+2018-06-02 06:55:26 +0000  8 bytes for ./Payload/videoPlay.app/PkgInfo
+copying file ./Payload/videoPlay.app/videoPlay ... 
+2018-06-02 06:55:26 +0000  85408 bytes for ./Payload/videoPlay.app/videoPlay
+2018-06-02 06:55:26 +0000  copying file ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib ... 
+2018-06-02 06:55:26 +0000  1211952 bytes for ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-06-02 06:55:29 +0000  68838832 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2018-06-02 06:55:29 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib ... 
+2018-06-02 06:55:29 +0000  649952 bytes for ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib
+2018-06-02 06:55:29 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-06-02 06:55:29 +0000  257584 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-06-02 06:55:29 +0000  1268736 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2018-06-02 06:55:29 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-06-02 06:55:29 +0000  258160 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib ... 
+2018-06-02 06:55:29 +0000  434432 bytes for ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib
+2018-06-02 06:55:29 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-06-02 06:55:29 +0000  599168 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2018-06-02 06:55:29 +0000  copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-06-02 06:55:29 +0000  2440624 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-06-02 06:55:31 +0000  27746368 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-06-02 06:55:31 +0000  399264 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+505680 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-06-02 06:55:31 +0000  446288 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+2018-06-02 06:55:31 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+310864 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftsimd.dylib ... 
+2018-06-02 06:55:31 +0000  3697280 bytes for ./SwiftSupport/iphoneos/libswiftsimd.dylib
+2018-06-02 06:55:31 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-06-02 06:55:31 +0000  789072 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-06-02 06:55:31 +0000  copying file ./Symbols/01109810-5373-3C65-8881-DA326EA9814B.symbols ... 
+2018-06-02 06:55:31 +0000  71136 bytes for ./Symbols/01109810-5373-3C65-8881-DA326EA9814B.symbols
+copying file ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols ... 
+2018-06-02 06:55:31 +0000  55600 bytes for ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols
+copying file ./Symbols/069E4D87-B9AF-3191-9461-CA8A03DB25EA.symbols ... 
+2018-06-02 06:55:31 +0000  71208 bytes for ./Symbols/069E4D87-B9AF-3191-9461-CA8A03DB25EA.symbols
+copying file ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols ... 
+2018-06-02 06:55:31 +0000  37848 bytes for ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols ... 
+2018-06-02 06:55:31 +0000  38456 bytes for ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols ... 
+2018-06-02 06:55:31 +0000  12024 bytes for ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols
+copying file ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols ... 
+2018-06-02 06:55:31 +0000  96512 bytes for ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols
+copying file ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols ... 
+2018-06-02 06:55:31 +0000  55600 bytes for ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols ... 
+2018-06-02 06:55:31 +0000  13128 bytes for ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/24177B58-E26B-39A4-A385-9719AC736960.symbols ... 
+2018-06-02 06:55:31 +0000  298816 bytes for ./Symbols/24177B58-E26B-39A4-A385-9719AC736960.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols ... 
+2018-06-02 06:55:31 +0000  2256 bytes for ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols
+copying file ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols ... 
+2018-06-02 06:55:31 +0000  12208 bytes for ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols ... 
+2018-06-02 06:55:31 +0000  1595752 bytes for ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols
+copying file ./Symbols/42181E01-A44D-399F-8D94-EED8BA6DE714.symbols ... 
+2018-06-02 06:55:31 +0000  300616 bytes for ./Symbols/42181E01-A44D-399F-8D94-EED8BA6DE714.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols ... 
+2018-06-02 06:55:31 +0000  24280 bytes for ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols
+copying file ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols ... 
+2018-06-02 06:55:31 +0000  38456 bytes for ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols
+copying file ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols ... 
+2018-06-02 06:55:31 +0000  12960 bytes for ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols
+copying file ./Symbols/4B032674-D782-3825-ABC0-6045510C9FFC.symbols ... 
+2018-06-02 06:55:31 +0000  18712 bytes for ./Symbols/4B032674-D782-3825-ABC0-6045510C9FFC.symbols
+copying file ./Symbols/4C5D8A81-F864-3A3F-91A8-B24ED703414B.symbols ... 
+2018-06-02 06:55:31 +0000  44392 bytes for ./Symbols/4C5D8A81-F864-3A3F-91A8-B24ED703414B.symbols
+copying file ./Symbols/56D41512-5B11-3164-8218-9578928862DA.symbols ... 
+2018-06-02 06:55:31 +0000  77680 bytes for ./Symbols/56D41512-5B11-3164-8218-9578928862DA.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols ... 
+12960 bytes for ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols
+copying file ./Symbols/5F8B371E-2809-3217-8813-C6649614D790.symbols ... 
+2018-06-02 06:55:31 +0000  18712 bytes for ./Symbols/5F8B371E-2809-3217-8813-C6649614D790.symbols
+copying file ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols ... 
+2018-06-02 06:55:31 +0000  2256 bytes for ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols
+copying file ./Symbols/662D41BA-3CD9-3F65-839A-3664F1CE2FC5.symbols ... 
+2018-06-02 06:55:31 +0000  43696 bytes for ./Symbols/662D41BA-3CD9-3F65-839A-3664F1CE2FC5.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols ... 
+2018-06-02 06:55:31 +0000  7288 bytes for ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols
+copying file ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols ... 
+2018-06-02 06:55:31 +0000  4443296 bytes for ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols
+copying file ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols ... 
+2018-06-02 06:55:31 +0000  234032 bytes for ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols ... 
+2018-06-02 06:55:31 +0000  1592200 bytes for ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols ... 
+2018-06-02 06:55:31 +0000  23856 bytes for ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols ... 
+2018-06-02 06:55:31 +0000  4424912 bytes for ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols ... 
+2018-06-02 06:55:31 +0000  4443880 bytes for ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols
+copying file ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols ... 
+2018-06-02 06:55:31 +0000  234176 bytes for ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols
+copying file ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols ... 
+2018-06-02 06:55:31 +0000  231936 bytes for ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols
+copying file ./Symbols/9B0D03E4-4CAB-3E80-8F13-9F9E52E5BEC1.symbols ... 
+2018-06-02 06:55:31 +0000  300616 bytes for ./Symbols/9B0D03E4-4CAB-3E80-8F13-9F9E52E5BEC1.symbols
+copying file ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols ... 
+2018-06-02 06:55:31 +0000  7552 bytes for ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols
+copying file ./Symbols/A548F79E-879A-3AB8-AE05-DCB5EBC6499E.symbols ... 
+2018-06-02 06:55:31 +0000  18304 bytes for ./Symbols/A548F79E-879A-3AB8-AE05-DCB5EBC6499E.symbols
+copying file ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols ... 
+2018-06-02 06:55:31 +0000  23856 bytes for ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols ... 
+2018-06-02 06:55:31 +0000  2640 bytes for ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols
+copying file ./Symbols/B904A916-2DB3-312C-A21E-8F93517C80DF.symbols ... 
+2018-06-02 06:55:31 +0000  71008 bytes for ./Symbols/B904A916-2DB3-312C-A21E-8F93517C80DF.symbols
+copying file ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols ... 
+2018-06-02 06:55:31 +0000  2640 bytes for ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols ... 
+2018-06-02 06:55:31 +0000  2720 bytes for ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols
+copying file ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols ... 
+2018-06-02 06:55:31 +0000  96448 bytes for ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols ... 
+2018-06-02 06:55:31 +0000  2352 bytes for ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols
+copying file ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols ... 
+2018-06-02 06:55:31 +0000  12208 bytes for ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols
+copying file ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols ... 
+2018-06-02 06:55:31 +0000  55560 bytes for ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols
+copying file ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols ... 
+2018-06-02 06:55:31 +0000  96288 bytes for ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols
+copying file ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols ... 
+2018-06-02 06:55:31 +0000  1595896 bytes for ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols
+2018-06-02 06:55:31 +0000  copying file ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols ... 
+2018-06-02 06:55:31 +0000  7288 bytes for ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols
+copying file ./Symbols/F87B8EAC-7FEB-32FF-9C55-F8405FBAE71D.symbols ... 
+2018-06-02 06:55:31 +0000  44464 bytes for ./Symbols/F87B8EAC-7FEB-32FF-9C55-F8405FBAE71D.symbols
+2018-06-02 06:55:31 +0000  
+2018-06-02 06:55:31 +0000  2018-06-02 06:55:31 +0000  /usr/bin/ditto exited with 0
+
+2018-06-02 06:55:31 +0000  
+2018-06-02 06:55:31 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-06-02 06:55:31 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
